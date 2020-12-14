@@ -20,7 +20,7 @@ function createContentfulClient() {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [],
+    paths: ["/hello-jeff"],
     fallback: "blocking",
   };
 };
